@@ -17,17 +17,17 @@ Probfuscator.exe e:\MD5.exe e:\MD5_obfu.exe MD5 MD5 CalculateMD5Value 4 4 3 10 1
 
 The arguments are the following:
 
-* <inputBinary> - Path to the binary that should be obfuscated.
-* <outputBinary> - Path and name of the binary that is created by the obfuscator.
-* <namespace> - The namespace that target class resides in (case sensitive).
-* <class> - The class that target method resides in (case sensitive).
-* <method> - The method that should be obfuscated (case sensitive).
-* <depth> - The depth of the obfuscation graph.
-* <dimension> - The dimension of the obfuscation graph.
-* <numberValidPaths> - Number of vpaths through the obfuscation graph.
-* <duplicateBasicBlockWeight> - A weighting value that is used in the random decision if a basic block is duplicated or not.
-* <duplicateBasicBlockCorrectionValue> - This correction value is added to the weighting value after each obfuscation iteration in order to ensure the termination of the process.
-* <stateChangeWeight> - A weighting value that is used in the random decision if code to change the vpath is added or not.
-* <stateChangeCorrectionValue> - This correction value is added to the weighting value after each obfuscation iteration in order to ensure the termination of the process.
-* <insertOpaquePredicateWeight> - A weighting value that is used in the random decision if an opaque predicate is added or not.
-* <seed> - Seed of the PRNG that is used by the prototype.
+* inputBinary - Path to the binary that should be obfuscated.
+* outputBinary - Path and name of the binary that is created by the obfuscator.
+* namespace - The namespace that target class resides in (case sensitive).
+* class - The class that target method resides in (case sensitive).
+* method - The method that should be obfuscated (case sensitive).
+* depth - The depth of the obfuscation graph.
+* dimension - The dimension of the obfuscation graph.
+* numberValidPaths - Number of vpaths through the obfuscation graph.
+* duplicateBasicBlockWeight - A weighting value that is used in the random decision if a basic block is duplicated or not.
+* duplicateBasicBlockCorrectionValue - This correction value is added to the weighting value after each obfuscation iteration in order to ensure the termination of the process.
+* stateChangeWeight - A weighting value that is used in the random decision if code to change the vpath is added or not.
+* stateChangeCorrectionValue - This correction value is added to the weighting value after each obfuscation iteration in order to ensure the termination of the process.
+* insertOpaquePredicateWeight - A weighting value that is used in the random decision if an opaque predicate is added or not.
+* seed - Seed of the PRNG that is used by the prototype.
