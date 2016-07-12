@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C61061ED-5FF5-40A0-94E8-69D06B82FD7A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cfg</RootNamespace>
+    <AssemblyName>Cfg</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cfg.cs" />
+    <Compile Include="CfgManipulation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CfgElements\CfgElements.csproj">
+      <Project>{88149b24-2131-4240-9ded-de8bcdeac34b}</Project>
+      <Name>CfgElements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.csproj">
+      <Project>{cb22ed55-2cb2-4f7f-a2d5-a4ed5c26edad}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\ILGenerator\ILGenerator.csproj">
+      <Project>{08156c78-403a-4112-ad81-8646ac51cd2f}</Project>
+      <Name>ILGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\MetadataHelper\MetadataHelper.csproj">
+      <Project>{4a34a3c5-6176-49d7-a4c5-b2b671247f8f}</Project>
+      <Name>MetadataHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\MetadataModel\MetadataModel.csproj">
+      <Project>{33cab640-0d03-43df-81bd-22cdc6c0a597}</Project>
+      <Name>MetadataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\MutableMetadataModel\MutableMetadataModel.csproj">
+      <Project>{319e151c-8f33-49e7-81c9-30f02f9ba90a}</Project>
+      <Name>MutableMetadataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\PdbReader\PdbReader.csproj">
+      <Project>{a6a31b03-7c3d-4de6-aa73-be88116bc40a}</Project>
+      <Name>PdbReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\PdbWriter\PdbWriter.csproj">
+      <Project>{6d83f687-abb5-40b3-915e-ca53da0eb7f3}</Project>
+      <Name>PdbWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\PeReader\PeReader.csproj">
+      <Project>{34b9a0ce-df18-4cbc-8f7a-90c2b74338d5}</Project>
+      <Name>PeReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\PeWriter\PeWriter.csproj">
+      <Project>{304a8b0b-851b-4aa6-a17d-5f87f39c5e5c}</Project>
+      <Name>PeWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sources\SourceModel\SourceModel.csproj">
+      <Project>{4b0054fd-124a-4037-9965-bdb55e6bf389}</Project>
+      <Name>SourceModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

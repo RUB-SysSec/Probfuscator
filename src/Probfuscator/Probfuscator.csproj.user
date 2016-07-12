@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>e:\MD5.exe e:\MD5_obfu.exe MD5 MD5 CalculateMD5Value 4 4 4 10 10 10 10 10 2</StartArguments>
+  </PropertyGroup>
+</Project>

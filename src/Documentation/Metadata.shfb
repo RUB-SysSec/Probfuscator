@@ -1,0 +1,65 @@
+﻿<project schemaVersion="1.6.0.2">
+    <assemblies>
+        <assembly assemblyPath="..\Sources\ILGenerator\bin\Debug\Microsoft.Cci.ILGenerator.dll" xmlCommentsPath="..\Sources\ILGenerator\bin\Debug\Microsoft.Cci.ILGenerator.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataHelper.dll" xmlCommentsPath="..\Sources\MetadataHelper\bin\Debug\Microsoft.Cci.MetadataHelper.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\MetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.dll" xmlCommentsPath="..\Sources\MetadataModel\bin\Debug\Microsoft.Cci.MetadataModel.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MutableMetadataModel.dll" xmlCommentsPath="..\Sources\MutableMetadataModel\bin\Debug\Microsoft.Cci.MutableMetadataModel.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\PdbReader\bin\Debug\Microsoft.Cci.PdbReader.dll" xmlCommentsPath="..\Sources\PdbReader\bin\Debug\Microsoft.Cci.PdbReader.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\PdbWriter\bin\Debug\Microsoft.Cci.PdbWriter.dll" xmlCommentsPath="..\Sources\PdbWriter\bin\Debug\Microsoft.Cci.PdbWriter.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\PeReader\bin\Debug\Microsoft.Cci.PeReader.dll" xmlCommentsPath="..\Sources\PeReader\bin\Debug\Microsoft.Cci.PeReader.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\PeWriter\bin\Debug\Microsoft.Cci.PeWriter.dll" xmlCommentsPath="..\Sources\PeWriter\bin\Debug\Microsoft.Cci.PeWriter.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\Sources\SourceModel\bin\Debug\Microsoft.Cci.SourceModel.dll" xmlCommentsPath="..\Sources\SourceModel\bin\Debug\Microsoft.Cci.SourceModel.xml" commentsOnly="False" />
+    </assemblies>
+    <namespaceSummaries>
+        <namespaceSummaryItem name="" isDocumented="False" />
+        <namespaceSummaryItem name="Microsoft.Cci" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.MetadataReader" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.MetadataReader.MethodBody" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.MetadataReader.ObjectModelImplementation" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.MetadataReader.PEFile" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.MetadataReader.PEFileFlags" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.MutableCodeModel" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.Pdb" isDocumented="True" />
+        <namespaceSummaryItem name="Microsoft.Cci.UtilityDataStructures" isDocumented="True" />
+    </namespaceSummaries>
+    <ProjectSummary>The Microsoft Research Common Compiler Infrastructure (CCI) is a set of components (libraries) that provide some of the functionality that compilers and related programming tools tend to have in common.
+
+The metadata components provide functionality for reading, writing and manipulating Microsoft Common Language Runtime (CLR) assemblies and debug files. The functionality provided by these components subsumes the functionality provided by System.Reflection and System.Reflection.Emit.
+</ProjectSummary>
+    <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, Namespace</MissingTags>
+    <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Protected, SealedProtected</VisibleItems>
+    <HtmlHelp1xCompilerPath path="" />
+    <HtmlHelp2xCompilerPath path="" />
+    <OutputPath>.\</OutputPath>
+    <SandcastlePath path="" />
+    <WorkingPath path="" />
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <HelpFileFormat>HtmlHelp1x</HelpFileFormat>
+    <PurgeDuplicateTopics>True</PurgeDuplicateTopics>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <FrameworkVersion>2.0.50727</FrameworkVersion>
+    <BinaryTOC>True</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <Preliminary>False</Preliminary>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <RootNamespaceTitle />
+    <HelpTitle>CCI Metadata components</HelpTitle>
+    <HtmlHelpName>CCI Metadata components API documentation</HtmlHelpName>
+    <Language>en-US</Language>
+    <CopyrightHref />
+    <CopyrightText />
+    <FeedbackEMailAddress />
+    <HeaderText />
+    <FooterText />
+    <ProjectLinkType>Local</ProjectLinkType>
+    <SdkLinkType>Msdn</SdkLinkType>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <PresentationStyle>Prototype</PresentationStyle>
+    <NamingMethod>Guid</NamingMethod>
+    <SyntaxFilters>Standard</SyntaxFilters>
+    <ShowFeedbackControl>False</ShowFeedbackControl>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <ContentSiteMap path="" />
+    <TopicFileTransform path="" />
+</project>
