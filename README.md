@@ -7,7 +7,7 @@ This is the obfuscation prototype targeting .NET programs of the paper [Prob­fu
 
 The prototype uses [CCI Metadata](https://ccimetadata.codeplex.com/) as a framework. If you want to use it, please use the Visual Studio Solution to compile the "Probfuscator" project. This creates a console application which can obfuscate arbitrary methods.
 
-In order to obfuscate a function, you can for example execute the following command:
+In order to obfuscate a function you can, for example, execute the following command:
 
 ```bash
 
